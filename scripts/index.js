@@ -48,9 +48,9 @@ x = setInterval(function() {
     hw = w / 2, // half-width
     hh = h / 2,
     opts = {
-      strings: ['HAPPY BIRTHDAY TO TAM NGUYEN!' ,'Chúc em sinh nhật vui vẻ. Anh mong là bước sang tuổi mới em sẽ có thật nhiều niềm vui, mọi thứ đến với em đều sẽ thật dịu dàng và mình sẽ nắm tay nhau đi qua nhiều cái sinh nhật nữa. Luôn vui vẻ và hạnh phúc, cười thật nhiều và luôn xinh đẹp nhé. Chúc em tuổi 22 thật ý nghĩa.  Anh yêu em nhiều'],
-      charSize: 30,
-      charSpacing: 35,
+      strings: ['HAPPY BIRTHDAY TO TAM NGUYEN!' ,'Chúc em sinh nhật vui vẻ.',  'Anh mong là bước sang tuổi mới em sẽ có thật nhiều niềm vui,', 'mọi thứ đến với em đều sẽ thật dịu dàng và mình sẽ nắm tay nhau đi qua nhiều cái sinh nhật nữa.', 'Luôn vui vẻ và hạnh phúc, cười thật nhiều và luôn xinh đẹp nhé.' , 'Chúc em tuổi 22 thật ý nghĩa.',  'Anh yêu em nhiều'],
+      charSize: 20,
+      charSpacing: 25,
       lineHeight: 40,
 
       cx: w / 2,
@@ -91,7 +91,7 @@ x = setInterval(function() {
     calc = {
       totalWidth:
         opts.charSpacing *
-        Math.max(opts.strings[0].length, opts.strings[1].length)
+        Math.max(opts.strings[0].length, opts.strings[1].length, opts.strings[2].length, opts.strings[3].length, opts.strings[4].length, opts.strings[5].length, opts.strings[6].length)
     },
     Tau = Math.PI * 2,
     TauQuarter = Tau / 4,
