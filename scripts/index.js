@@ -50,7 +50,7 @@ x = setInterval(function() {
     opts = {
       strings: ['HAPPY BIRTHDAY TO TAM NGUYEN!' ,'Chúc em sinh nhật vui vẻ.',  'Anh mong là bước sang tuổi mới em sẽ có thật nhiều niềm vui,', 'mọi thứ đến với em đều sẽ thật dịu dàng và mình sẽ nắm tay nhau đi qua nhiều cái sinh nhật nữa.', 'Luôn vui vẻ và hạnh phúc, cười thật nhiều và luôn xinh đẹp nhé.' , 'Chúc em tuổi 22 thật ý nghĩa.',  'Anh yêu em nhiều'],
       charSize: 20,
-      charSpacing: 25,
+      charSpacing: 15,
       lineHeight: 40,
 
       cx: w / 2,
